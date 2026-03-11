@@ -21,7 +21,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/api/auth/register", form);
+      await axios.post("https://online-attorney-appointment-scheduling-nbkp.onrender.com", form);
       alert("Registration successful 🎉");
       navigate("/");
     } catch (error) {

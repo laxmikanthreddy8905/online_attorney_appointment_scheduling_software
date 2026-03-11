@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://online-attorney-appointment-scheduling-nbkp.onrender.com",
 });
 
 // automatically attach token

@@ -7,7 +7,7 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 
 /* connect to backend socket */
-const socket = io("http://localhost:5000");
+const socket = io("https://online-attorney-appointment-scheduling-nbkp.onrender.com");
 
 export default function AppointmentCalendar() {
 
