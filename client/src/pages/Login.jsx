@@ -18,7 +18,7 @@ function Login() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://online-attorney-appointment-scheduling-nbkp.onrender.com",
+        "https://online-attorney-appointment-scheduling-nbkp.onrender.com/api/auth/login",
         form
       );
 

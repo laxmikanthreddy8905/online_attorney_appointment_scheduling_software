@@ -11,7 +11,7 @@ const Attorneys = () => {
 
   const fetchAttorneys = async () => {
     try {
-      const res = await axios.get("https://online-attorney-appointment-scheduling-nbkp.onrender.com", {
+      const res = await axios.get("https://online-attorney-appointment-scheduling-nbkp.onrender.com/api/attorneys", {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token")
         }

@@ -21,7 +21,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post("https://online-attorney-appointment-scheduling-nbkp.onrender.com", form);
+      await axios.post("https://online-attorney-appointment-scheduling-nbkp.onrender.com/api/auth/register", form);
       alert("Registration successful 🎉");
       navigate("/");
     } catch (error) {
